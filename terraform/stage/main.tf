@@ -38,6 +38,7 @@ module "vpc" {
   source        = "../modules/vpc"
   env_name      = "stage"
   source_ranges = ["${var.access_range}"]
+  allow_ports   = ["22", "80"]
 }
 
 module "dns" {

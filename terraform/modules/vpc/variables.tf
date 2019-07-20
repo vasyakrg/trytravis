@@ -3,6 +3,10 @@ variable "source_ranges" {
   default     = ["0.0.0.0/0"]
 }
 
+variable "allow_ports" {
+  default = ["22"]
+}
+
 variable "env_name" {
   default = ""
 }
