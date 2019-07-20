@@ -27,3 +27,12 @@ variable "install_app" {
 variable "db_internal_ip" {
   default = "127.0.0.1"
 }
+
+variable "vpc_tags" {
+  type    = "list"
+  default = []
+}
+
+variable "env_name" {
+  default = ""
+}

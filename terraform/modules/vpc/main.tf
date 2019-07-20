@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "firewall_ssh" {
-  name     = "default-allow-ssh"
+  name     = "${var.env_name}-default-allow-ssh"
   network  = "default"
   priority = "65534"
 
