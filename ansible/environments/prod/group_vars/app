@@ -1,0 +1,1 @@
+db_host: "{{ hostvars['dbserver']['ansible_facts']['all_ipv4_addresses'] | join('\n') }}"
