@@ -1,7 +1,6 @@
-# terraform {
-#   backend "gcs" {
-#     bucket = "terra2-bucket-prod"
-#     prefix = "prod"
-#   }
-# }
-
+terraform {
+  backend "gcs" {
+    bucket = "terra2-bucket-prod"
+    prefix = "prod"
+  }
+}
