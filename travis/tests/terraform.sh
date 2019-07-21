@@ -1,5 +1,6 @@
 #!/bin/bash
 # stage tests
+echo "go to test stage"
 cd ../terraform/stage
 terraform init
 terraform validate -var-file=terraform.tfvars.example
