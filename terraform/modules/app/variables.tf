@@ -14,10 +14,12 @@ variable "count_instance" {
 
 variable public_key {
   description = "public key used for ssh access"
+  default     = ""
 }
 
 variable private_key {
   description = "private key used for ssh access"
+  default     = ""
 }
 
 variable "install_app" {
